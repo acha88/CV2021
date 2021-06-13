@@ -1,0 +1,282 @@
+/* Toute la page */
+body {
+  margin: 0 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+/* le lien */
+a:link {
+  color: #261c47;
+}
+
+/* les titres & paragraphes */
+h1 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: 'Time New Roman', sans-serif;
+  padding: 2% 5% 2%;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  background-color: #37474f;
+  color: #eeeeee;
+}
+
+h3 {
+  font-family: 'Time New Roman', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 0 5%;
+}
+
+h4 {
+  color: #37474f;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: 'Time New Roman', sans-serif;
+  margin-left: 5%;
+}
+
+p {
+  color: #18033a;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Time New Roman', sans-serif;
+}
+
+/* La partie gauche */
+.sidebar {
+  width: 30%;
+  background: #7451eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Time New Roman';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+
+.sidebar p {
+  color: #cac5d1;
+}
+
+.about_content {
+  padding: 0.5em;
+}
+.about_hobbies {
+  justify-content: space-between;
+  padding: 0.5em;
+}
+/* La partie droite */
+.some {
+  width: 100%;
+  height: 100vh;
+}
+
+.first_name {
+  color: #7451eb;
+}
+
+.little_title {
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Time New Roman', sans-serif;
+  padding: 0 5%;
+  margin: 0;
+}
+
+.small_ligne {
+  width: 3%;
+  border: 1px solid #7451eb;
+  margin: 0 5% 5%;
+}
+
+#contact,
+#hobbies,
+#presentation {
+  width: 100%;
+}
+
+.ligne {
+  width: 100%;
+  border: 1px solid #7451eb;
+}
+
+.date-desc {
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+}
+
+i.fas {
+  border: 10px;
+  color: #7451eb;
+}
+
+.studies {
+  margin: 0 5%;
+}
+
+.experience {
+  margin: 0 5%;
+}
+
+.recommendation {
+  margin: 0 5%;
+}
+
+.date {
+  margin: 0 5%;
+  width: 25%;
+}
+
+.description {
+  width: 100%;
+  justify-content: left;
+}
+
+/* Pour tablettes & téléphones */
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0 0;
+  }
+
+  .main-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* le lien */
+  a:link {
+    color: #261c47;
+  }
+  /* les titres & paragraphes */
+  h1 {
+    font-size: 22px;
+    font-style: normal;
+    font-family: 'Time New Roman', sans-serif;
+    padding: 2% 5% 2%;
+    margin: 0;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 20px;
+    background-color: #37474f;
+    color: #eeeeee;
+  }
+
+  h3 {
+    font-family: 'Time New Roman', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0 5%;
+  }
+
+  h4 {
+    color: #37474f;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Time New Roman', sans-serif;
+    margin-left: 5%;
+  }
+
+  p {
+    color: #18033a;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Time New Roman', sans-serif;
+  }
+  /* Première partie */
+  .sidebar {
+    width: 100%;
+    background: #7451eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .sidebar p {
+    color: #cac5d1;
+  }
+  .about_content {
+    padding: 0.5em 1em;
+  }
+
+  .about_hobbies {
+    padding: 0.5em 1em;
+  }
+  /* Deuxième partie */
+  .first_name {
+    color: #7451eb;
+  }
+
+  .little_title {
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Time New Roman', sans-serif;
+    padding: 0 5%;
+    margin: 0;
+  }
+
+  .small_ligne {
+    width: 4%;
+    border: 1px solid #7451eb;
+    margin: 0 5% 5%;
+  }
+  #contact,
+  #hobbies,
+  #presentation {
+    width: 100%;
+  }
+
+  .ligne {
+    width: auto;
+    border: 1px solid #7451eb;
+  }
+
+  .date-desc {
+    display: flex;
+    align-items: center;
+    margin: 0 2%;
+  }
+
+  i.fas {
+    border: 10px;
+    color: #7451eb;
+  }
+
+  .studies {
+    margin: 0 5%;
+  }
+
+  .experience {
+    margin: 0 5%;
+  }
+
+  .recommendation {
+    margin: 0 5%;
+  }
+
+  .date {
+    margin: 0 5%;
+    width: 50%;
+  }
+
+  .description {
+    width: 100%;
+    justify-content: left;
+  }
+}
